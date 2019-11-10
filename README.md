@@ -3,6 +3,6 @@
 ##### how to use:
 
 ```sh
-python3 test_mygui
+python3 test_mygui.py
 ```
 

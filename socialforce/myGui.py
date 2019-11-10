@@ -31,7 +31,9 @@ class MyGui():
 
         button1 = tkinter.Button(win, text="Start Simulating!", command=showinfo).grid(row = len(key_list))
         button2 = tkinter.Button(win, text="Quit!", command=win.quit).grid(row = len(key_list) + 1)
-        label = tkinter.Label(win, text = 'AUTHORED BY JIHUI HUANG OF BUAA')
+        info = 'AUTHORED BY JIHUI HUANG OF BUAA\n' + 'Link : https://github.com/huangjihui511/SF-model-homework-of-BUAA.git'
+        label = tkinter.Label(win, text = info)
+
         #text.insert(tkinter.INSERT, )
         label.grid(row = len(key_list) + 1,column=1)
         win.mainloop()
